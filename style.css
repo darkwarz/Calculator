@@ -13,7 +13,7 @@ body {
   border: 2px;
   border-color: #042766;
   border-radius: 20px;
-  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.50), inset -1px -6px 12px 0.1px #89847e;
 }
 
 .container2 {
@@ -57,7 +57,7 @@ button {
   margin: 0 4px 10px 8px;
   height: 40px;
   width: 50px;
-  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+  box-shadow: 0px 3px 0px 0px #222121, inset 0px -1px 1px 1px #515151;
 }
 
 button:active {
@@ -84,9 +84,15 @@ button:active {
   width: 117px;
 }
 
-.red {
+.blue {
   font-size: 14px;
-  background-color: #a72d45;
+  background-color: #67C8FF;
+  box-shadow: 0px 3px 0px 0px #671c2a;
+}
+
+.gray {
+  font-size: 14px;
+  background-color: #6e818c;
   box-shadow: 0px 3px 0px 0px #671c2a;
 }
 

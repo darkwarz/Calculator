@@ -207,12 +207,6 @@ $(document).ready(function() {
   });
 }); // end doc ready function
 
-
-
-
-
-
-
 // document.getElementById("Submit").onclick = function(){
 //     // take the numbers from text field and display then in our display area
 //     var input = document.getElementById("input").value;
