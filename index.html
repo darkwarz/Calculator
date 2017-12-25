@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link href='https://code.jquery.com/jquery-2.2.4.min.js'>
+    <title>JE Calculator</title>
+</head>
+
+<body><div class='container'>
+  <div id='calculator'>
+
+    <!-- TITLE -->
+
+    <div id='title' class='text-center'>
+      <h5><b>Online Calculator</b></h5>
+    </div>
+
+    <!-- ENTRY BOX -->
+
+    <div id='entrybox' class='text-right'>
+      <div id='entry'>
+        <p id='answer'>0</p>
+      </div>
+      <div id='history'>
+        <p>0</p>
+      </div>
+    </div>
+
+    <!-- BUTTONS -->
+
+    <div id='buttons'>
+
+      <button class='red' value='ac'>AC</button>
+      <button class='red' value='ce'>CE</button>
+      <button value='/'>&divide;</button>
+      <button value='*'>x</button>
+
+      <button value='7'>7</button>
+      <button value='8'>8</button>
+      <button value='9'>9</button>
+      <button value='-'>-</button>
+
+      <button value='4'>4</button>
+      <button value='5'>5</button>
+      <button value='6'>6</button>
+      <button value='+'>+</button>
+
+
+      <button value='1'>1</button>
+      <button value='2'>2</button>
+      <button value='3'>3</button>
+      <button class='invisible'>N</button>
+
+      <button id='zeroButton' value='0'>0</button>
+      <button value='.'>.</button>
+      <button id='equalButton' value='='>=</button>
+
+    </div>
+    <!-- end buttons -->
+    <div id='tester'></div>
+  </div>
+  <!-- end calculator -->
+</div>
+<!-- end container -->
+
+<footer id="footer" class="text-center">
+  <div class="container2">
+    Designed & Coded by
+   
+    <div class="credits btn btn-basic"><i class="fa fa-github"></i>
+       <a href="https://github.com/darkwarz">Author: Jabier Espinal </a> 
+        </div>
+         
+  </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
