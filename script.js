@@ -1,15 +1,15 @@
-// final draft
+// JQuery
 $(document).ready(function() {
 
-  var entry = '';
-  var ans = '';
-  var current = '';
-  var log = '';
-  var decimal = true;
-  var reset = '';
+  var entry = '';   // makes entry box blank
+  var ans = '';    // makes answer box blank
+  var current = ''; // makes current line blank
+  var log = ''; // makes log blank
+  var decimal = true;  // confirms dicimal value 
+  var reset = ''; //  makes reset button go to blank
 
   // round function if answer includes a decimal
-  function round(val) {
+  function round(val) { // 
     val = val.toString().split('');
     if (val.indexOf('.') !== -1) {
       var valTest = val.slice(val.indexOf('.') + 1, val.length);
